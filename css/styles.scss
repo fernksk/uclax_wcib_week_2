@@ -1,7 +1,65 @@
+$text-color: rgb( 240, 230, 140 ) ;
+$marginH: 100px;
 body {
-	font-family: sans-serif;
-
+		background-image: url("/images/bg1.jpg");
+		border: 5px solid #FFF0cE;
+  	color: $text-color;
+  	text-align: left;
+  	font-family: 'Playfair Display', serif;
+  	padding-top: 30px;
+  	padding-right: 20px;
+  	padding-bottom: 0;
+  	padding-left: 1%;
+	header {
+		text-align: center;
+	}
+	iframe {
+		display: block;
+		margin-top: $marginH;
+		margin-bottom: $marginH;
+		margin-left: auto;
+		margin-right: auto;
+		overflow: auto;
+	}
+	div {
+  	display: flex;
+  	justify-content: space-between;
+	}
+	h3 {
+    color: rgb( 240, 230, 140 );
+		font-family: 'Playfair Display', serif;
+		text-align: center;
+		margin-top: 20;
+		margin-bottom: 50;
+		margin-left: 5%;
+		margin-right: 5%;
+		font-size: 40px;
+  }
+  p {
+    color: rgb( 255, 250, 205 );
+		text-align: center;
+		margin-top: 30;
+		margin-bottom: 60;
+		margin-left: 11%;
+		margin-right: 15%;
+		font-size: 35px;
+  }
+  ul {
+      list-style-type: disc;
+			width: 20%;
+    	margin: auto;
+			font-size: 30px
+  }
+	a:link {
+	  color: white;
+	}
+	a:hover {
+  color: rgb( 240, 230, 140 );
+	}
+	a:visited {
+  color: rgb( 175, 238, 238 );
+	}
 	img {
-		width: 100%;
+		width: 30%; border-radius: 10%;
 	}
 }
