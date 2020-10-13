@@ -1,8 +1,8 @@
 $text-color: rgb( 240, 230, 140 ) ;
 $marginH: 100px;
 body {
-		background-image: url("/images/bg1.jpg");
-		border: 5px solid #FFF0cE;
+		background-image: url("/images/bg2.jpg");
+		border: 5px solid #fca103;
   	color: $text-color;
   	text-align: left;
   	font-family: 'Playfair Display', serif;
@@ -36,7 +36,8 @@ body {
 		font-size: 40px;
   }
   p {
-    color: rgb( 255, 250, 205 );
+		background-color: rgb( 143, 139 , 139 );
+		color: rgb( 255, 250, 205 );
 		text-align: center;
 		margin-top: 30;
 		margin-bottom: 60;
