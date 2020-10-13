@@ -20,6 +20,7 @@ body {
 		margin-left: auto;
 		margin-right: auto;
 		overflow: auto;
+		border: 0px;
 	}
 	div {
   	display: flex;
@@ -29,8 +30,8 @@ body {
     color: rgb( 240, 230, 140 );
 		font-family: 'Playfair Display', serif;
 		text-align: center;
-		margin-top: 20;
-		margin-bottom: 50;
+		margin-top: 20px;
+		margin-bottom: 50px;
 		margin-left: 5%;
 		margin-right: 5%;
 		font-size: 40px;
@@ -39,8 +40,8 @@ body {
 		background-color: rgb( 143, 139 , 139 );
 		color: rgb( 255, 250, 205 );
 		text-align: center;
-		margin-top: 30;
-		margin-bottom: 60;
+		margin-top: 30px;
+		margin-bottom: 60px;
 		margin-left: 11%;
 		margin-right: 15%;
 		font-size: 35px;
