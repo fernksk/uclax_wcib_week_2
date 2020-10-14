@@ -21,6 +21,15 @@ body {
   body div {
     display: flex;
     justify-content: space-between; }
+  body h2 {
+    color: khaki;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 60px; }
   body h3 {
     color: khaki;
     font-family: 'Playfair Display', serif;
